@@ -1,3 +1,409 @@
-/*
- * Estilos de tu proyecto
- */
+/* Estilo que quita los márgenes de todo el body e indica la fuente de toda la página */
+
+body {
+  margin: 0 auto;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Textos en mayúsculas */
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+/* Sección inicial */
+
+.content {
+  width: 100%;
+  height: 650px;
+  background-image: url(../assets/images/hero.gif);
+  background-size: cover;
+  background-position: 50%;
+  position: relative;
+}
+
+.header {
+  width: 100%;
+  height: 115px;
+}
+
+/* logo lyft */
+
+.header img {
+  width: 4rem;
+  height: 2.83871rem;
+  margin: 40px 0 0 80px;
+  float: left;
+}
+
+/* Menu navegador de cabecera */
+
+.header ul {
+  margin-top: 40px;
+  margin-right: 180px;
+  float: right;
+}
+
+.header li {
+  font-size: 18px;
+  list-style: none;
+  padding-right: 20px;
+  display: inline-block;
+}
+
+#explore {
+  margin-left: 20px;
+}
+
+#login {
+  width: 65px;
+  height: 8px;
+  border: 1px solid #FFF;
+  border-radius: .5rem;
+  padding: 10px 10px 20px 20px;
+  margin-left: 30px;
+}
+
+.header a {
+  text-decoration: none;
+  color: #FFF;
+}
+
+.header a:hover {
+  color: #FF00BF;
+}
+
+/* Campo para pedir conductor lyft */
+
+.box-white {
+  width: 560px;
+  height: 430px;
+  background: #FFF;
+  float: right;
+}
+
+.box-info {
+  padding: 40px 0 0 70px;
+}
+
+.box-info h1 {
+  color: #352384;
+  font-size: 2.5rem;
+  font-weight: 600;
+  line-height: 1;
+  position: absolute;
+}
+
+.box-info h2 {
+  padding-bottom: 30px;
+  color: #352384;
+  font-size: .900rem;
+  font-weight: 500;
+  line-height: 0;
+  margin-top: 130px;
+  position: absolute;
+}
+
+input {
+  font-family: 'Montserrat', sans-serif;
+  color: #728099;
+  font-size: 14px;
+  border-style: hidden;
+  border-bottom: 1px solid #352384;
+  line-height: 1;
+  padding: 10px 0 10px 0;
+  margin-bottom: 30px;
+  margin-top: 160px;
+  position: absolute;
+}
+
+.button {
+  border-radius: .50rem;
+  background: #FF00BF;
+  color: #FFF;
+  font-size: 16px;
+  margin-top: 235px;
+  padding: 17px 20px 17px 20px;
+  border-style: hidden;
+  cursor: pointer;
+  position: absolute;
+}
+
+.button-2 {
+  background-color: #FFF;
+  color: #728099;
+  font-size: 16px;
+  font-weight: lighter;
+  text-decoration: underline;
+  margin-top: 235px;
+  margin-left: 180px;
+  padding: 17px 20px 17px 20px;
+  border-style: hidden;
+  cursor: pointer;
+  position: absolute;
+}
+
+.button-2:hover {
+  color: #CA4DAB;
+}
+
+.box-info p {
+  color: #728099;
+  font-size: 9px;
+  line-height: 2.5;
+  margin-top: 310px;
+}
+
+/* gradiente para suavizar la terminación de la imágen de fondo*/
+
+.gradient {
+  width: 100%;
+  height: 90px;
+  background: linear-gradient(transparent, #76278f);
+  margin-top: 445px;
+}
+
+/* sección 1 */
+
+.section-1 {
+  width: 100%;
+  height: 640px;
+  background: linear-gradient(#76278f, #2b1e66);
+  position: relative;
+}
+
+.section-1 img {
+  width: 490px;
+  height: auto;
+  float: left;
+  margin: 40px 0 0 60px;
+  position: absolute;
+}
+
+.items {
+  color: #FFF;
+  width: 480px;
+  height: auto;
+  margin-left: 156px;
+  margin-top: 40px;
+  float: left;
+  clear: left;
+}
+
+.items h3 {
+  font-size: 1.75rem;
+  font-weight: 600;
+  line-height: 0;
+}
+
+/* Interlineado especial para el último h3 de mi sección */
+
+.section-1 :last-child {
+  line-height: 1.3;
+}
+
+.items p {
+  margin-top: 35px;
+}
+
+/* sección 2 */
+
+.section-2 {
+  width: 100%;
+  height: 1514px;
+  padding: 0;
+  position: relative;
+}
+
+/* Estilos para el primer y tercer video */
+
+.video1 {
+  width: 1349px;
+  height: 510px;
+  position: relative;
+}
+
+.text1 {
+  width: 350px;
+  height: auto;
+  margin: 7px 0 0 40px;
+  display: inline-block;
+}
+
+.text1 h3 {
+  width: 300px;
+  height: auto;
+  font-size: 1.75rem;
+  font-weight: 600;
+  line-height: 1.1;
+  margin: 0;
+}
+
+.text1 p {
+  width: 344px;
+  margin-top: 25px;
+  height: auto;
+}
+
+.text1 h6 {
+  line-height: 1;
+  margin-bottom: 0;
+}
+
+.video1 iframe {
+  width: 910px;
+  height: 510px;
+  border-style: none;
+  margin: 0 auto;
+  float: right;
+}
+
+/* Estilos para el segundo video */
+
+.video2 {
+  width: 1349px;
+  height: 510px;
+  position: relative;
+}
+
+.text2 {
+  width: 350px;
+  height: auto;
+  margin: 7px 40px 0 0;
+  float: right;
+  display: inline-block;
+}
+
+.text2 h3 {
+  width: 300px;
+  height: auto;
+  font-size: 1.75rem;
+  font-weight: 600;
+  line-height: 1.1;
+  margin: 0;
+}
+
+.text2 p {
+  width: 344px;
+  margin-top: 25px;
+  height: auto;
+}
+
+.text2 h6 {
+  line-height: 1;
+  margin-bottom: 0;
+}
+
+.video2 iframe {
+  width: 910px;
+  height: 510px;
+  border-style: none;
+  margin: 0 auto;
+  float: left;
+}
+
+/* Pie de página */
+
+.footer {
+  width: 100%;
+  height: 520px;
+  background: #333447;
+  color: #FFF;
+  padding: 35px 0 0 80px;
+  position: relative;
+}
+
+.link a {
+  text-decoration: none;
+  color: #FFF;
+}
+
+.link a:hover {
+  color: #FF00BF;
+}
+
+.text-uppercase a:hover {
+  text-decoration: underline;
+  color: #FFF;
+}
+
+.footer ul {
+  list-style: none;
+  float: left;
+  margin-right: 135px;
+  line-height: 3;
+}
+
+li h4 {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0;
+}
+
+li img {
+  width: 130px;
+  height: auto;
+  cursor: pointer;
+}
+
+.img-apps {
+  margin-top: 40px;
+}
+
+.img-apps li {
+  line-height: 4.5;
+}
+
+/* Estilo para iconos circulares */
+
+.icon-facebook:before {
+  content: "\ea90";
+}
+
+.icon-instagram:before {
+  content: "\ea92";
+}
+
+.icon-twitter:before {
+  content: "\ea96";
+}
+
+.circle {
+  height: 32px;
+  width: 32px;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 50%;
+  border: 1px solid #FFF;
+}
+
+.logos a {
+  text-decoration: none;
+  color: #FFF;
+}
+
+.logos ul {
+  line-height: 0;
+  margin-left: 450px;
+  margin-bottom: 30px;
+}
+
+.logos li {
+  margin-top: 50px;
+  margin-right: 70px;
+  float: left;
+}
+
+hr {
+  margin-right: 360px;
+  width: 770px;
+  clear: both;
+}
+
+.footer p {
+  font-weight: normal;
+  padding-top: 30px;
+  padding-right: 130px;
+  text-align: center;
+}
