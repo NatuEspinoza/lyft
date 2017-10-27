@@ -11,9 +11,8 @@
 ## Recursos de estilo:
 
 · Fuentes tipográficas:
-  Se utilizó la web https://fonts.google.com para incorporar las fuentes tipográficas
+  Se utilizó la web https://fonts.google.com para incorporar la fuente tipográfica de la web.
   * Monserrat
-  * Lato
 
 · Paleta de colores:
 - Botones, hover: `#FF00BF`
